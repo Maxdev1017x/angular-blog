@@ -1,6 +1,6 @@
 .container-big-card {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -10,7 +10,7 @@
 }
 
 .big-card-image > img {
-    min-width: 400PX;
+    min-width: 350PX;
     width: 100%;
 }
 

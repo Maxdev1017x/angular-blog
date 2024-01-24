@@ -1,16 +1,14 @@
 <div class="container-big-card">
     <div class="big-card-image">
         <img
-        src="https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept-bright-vibrant-violet-isolated-illustration_335657-986.jpg?w=1380&t=st=1706026671~exp=1706027271~hmac=599fe911b7b5cfb6d2cfa2595cc9af5e4040c9473c3f0b00cbeead1084c5cb3b"
-        alt="image" width="400px" height="400px"
+        src="{{photoCover}}"
+        alt="image" width="350px" height="350px"
         />
     </div>
     <div class="big-card-title">
-        <h1><a href="#">Nova Versão Lançada</a></h1>
+        <h1><a [routerLink]="['content', id]">{{cardTitle}}</a></h1>
     </div>
     <div class="big-card-description">
-        <p><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, quis eum sunt esse repellat assumenda vero praesentium numquam, <br>
-            totam earum exercitationem quasi voluptate quos ratione hic nisi ad reiciendis nemo.
-        </a></p>
+        <p><a  [routerLink]="['content', id]">{{cardDescription}}</a></p>
     </div>
 </div>

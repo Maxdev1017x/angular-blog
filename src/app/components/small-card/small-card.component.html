@@ -2,14 +2,12 @@
     <div class="small-card-content">
         <div class="small-card-image">
             <img
-            src="https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept-bright-vibrant-violet-isolated-illustration_335657-986.jpg?w=1380&t=st=1706026671~exp=1706027271~hmac=599fe911b7b5cfb6d2cfa2595cc9af5e4040c9473c3f0b00cbeead1084c5cb3b"
+            src="{{photoCover}}"
             alt="image" width="200px" height="200px"
             />
         </div>
         <div class="small-card-title">
-            <p><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, quis eum sunt esse repellat assumenda vero praesentium numquam, <br>
-                totam earum exercitationem quasi voluptate quos ratione hic nisi ad reiciendis nemo.
-            </a></p>
+            <p><a [routerLink]="['content', id]">{{cardTitle}}</a></p>
         </div>
     </div>
     <div>
