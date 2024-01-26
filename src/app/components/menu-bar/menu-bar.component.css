@@ -1,12 +1,44 @@
-
-
-.container__menu-bar > ul{
-  display: flex;
-  flex-direction: row;
+.container-menu-bar {
+    width: 100%;
+    background-color: #000;
 }
 
-.container__menu-bar > ul > li{
-  margin-right: 20px;
-  list-style: none;
+.menu-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.menu-bar li {
+    flex: 1 1 auto;
+}
+
+.menu-bar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-bar li a:hover {
+    opacity: 0.9;
+}
+
+.menu-bar li a i {
+    margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+    .menu-bar li {
+        flex: 1 0 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu-bar li {
+        flex: 1 0 100%;
+    }
+}

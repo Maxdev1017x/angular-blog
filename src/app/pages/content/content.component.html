@@ -1,15 +1,16 @@
-<div class="container__content">
-  <div class="content__cover">
-    <img src="{{ photoCover }}" alt="" srcset="">
-  </div>
-  <div class="content__title">
-    <h1>{{ contentTitle }}</h1>
-    <hr />
-  </div>
-  <div class="content__description">
-    <a [routerLink]="['']"> << VOLTAR </a>
-    <p>
-      {{ contentDescription }}
-    </p>
-  </div>
+<div class="container-content">
+    <div class="content-cover">
+        <img src="{{photoCover}}" alt="image">
+    </div>
+    <div class="content-title">
+        <h1>{{contentTitle}}</h1>
+    </div>
+    <div class="content-description">
+        <p>{{contentDescription}}</p>
+    </div>
+    <div class="button">
+        <a [routerLink]="[''] ">Voltar</a>
+    </div>
 </div>
+
+<app-footer></app-footer>

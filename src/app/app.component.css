@@ -1,5 +1,6 @@
 header {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    justify-content: flex-start;
 }
+
